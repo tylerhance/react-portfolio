@@ -1,8 +1,8 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-    GitHubIcon,
-    LinkedInIcon,
+    faGithub,
+    faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import "../styles/SocialMedia.css";
 
@@ -11,14 +11,14 @@ export default function SocialMedia() {
         <div>
             <h4>
                 {""}
-                {"/n"}
+                {"\n"}
                 <a 
                 href="https://github.com/tylerhance" className="github">
-                    <FontAwesomeIcon icon={GitHubIcon} size="2x" />
+                    <FontAwesomeIcon icon={faGithub} size="2x" />
                 </a>
                 <a 
                 href="https://www.linkedin.com/in/tyler-hance/" className="linkedin">
-                    <FontAwesomeIcon icon={LinkedInIcon} size="2x" />
+                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
                 </a>
             </h4>
         </div>
