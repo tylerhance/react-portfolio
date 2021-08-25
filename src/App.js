@@ -3,15 +3,17 @@ import './App.css';
 import React from 'react';
 import { Route } from 'react-router-dom';
 import  CssBaseline from '@material-ui/core/CssBaseline';
-import Home from './components';
-import Resume from './components/Resume';
-import Portfolio from "./components/PortfolioContainer"
+import Header from "./components/Header";
+import PortfolioContainer from "./components/PortfolioContainer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-    <Home/>
-    </>
+    <div>
+    <Header />
+    <PortfolioContainer />
+    <Footer />
+    </div>
   );
 }
 
