@@ -13,7 +13,7 @@ export default function Resume() {
                 <img src={MyResume} alt="Tyler's Resume" />
                 <br />
                 <a href={ResumeDL}
-                download="MyExampleDoc"
+                download="Tyler Hance_Resume"
                 target="_blank"
                 rel="noreferrer">
                     <Button>Download my resume!</Button>

@@ -1,10 +1,12 @@
 import React from "react";
 import "../styles/Navbar.css";
+import Nav from "./Navbar";
+
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul className="flex-row">
+      <li className="mx-2">
         <a
           href="about-me"
           onClick={() => handlePageChange("About")}
@@ -13,7 +15,7 @@ function Navbar({ currentPage, handlePageChange }) {
           About Me
         </a>
       </li>
-      <li className="nav-item">
+      <li className="mx-1">
         <a
           href="#portfolio"
           onClick={() => handlePageChange("Portfolio")}
@@ -24,7 +26,7 @@ function Navbar({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="nav-item">
+      <li className="mx-1">
         <a
           href="#resume"
           onClick={() => handlePageChange("Resume")}
@@ -33,7 +35,7 @@ function Navbar({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>
-      <li className="nav-item">
+      <li className="mx-1">
         <a
           href="#contact"
           onClick={() => handlePageChange("Contact")}
@@ -44,6 +46,13 @@ function Navbar({ currentPage, handlePageChange }) {
       </li>
     </ul>
   );
+
+  
 }
 
 export default Navbar;
+
+
+
+
+
