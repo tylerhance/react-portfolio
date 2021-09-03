@@ -1,12 +1,12 @@
 import React from "react";
 import "../styles/Navbar.css";
-import Nav from "./Navbar";
+
 
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <ul className="flex-row">
-      <li className="mx-2">
+    <ul className="nav-container">
+      <li>
         <a
           href="about-me"
           onClick={() => handlePageChange("About")}
@@ -15,7 +15,7 @@ function Navbar({ currentPage, handlePageChange }) {
           About Me
         </a>
       </li>
-      <li className="mx-1">
+      <li>
         <a
           href="#portfolio"
           onClick={() => handlePageChange("Portfolio")}
@@ -26,7 +26,7 @@ function Navbar({ currentPage, handlePageChange }) {
           Portfolio
         </a>
       </li>
-      <li className="mx-1">
+      <li>
         <a
           href="#resume"
           onClick={() => handlePageChange("Resume")}
@@ -35,7 +35,7 @@ function Navbar({ currentPage, handlePageChange }) {
           Resume
         </a>
       </li>
-      <li className="mx-1">
+      <li>
         <a
           href="#contact"
           onClick={() => handlePageChange("Contact")}
