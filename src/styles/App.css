@@ -2,10 +2,10 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -13,8 +13,13 @@
   }
 }
 
+h1 {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px #5e6f7e;
+}
+
 .App-header {
-  background-color: #282c34;
+  background-color: #ebe6e6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,9 +29,9 @@
   color: white;
 }
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {

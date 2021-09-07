@@ -1,6 +1,8 @@
-h1 {
+span {
+    color: #ebe6e6;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px #5e6f7e;
     display: flex;
     justify-content: center;
 }
+

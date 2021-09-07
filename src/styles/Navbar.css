@@ -2,13 +2,15 @@
     display: flex;
     justify-content: center;
     /* background: linear-gradient(45deg, #A799B7, #508484, #EEF0F2); */
-    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    background: linear-gradient(0.25turn, #8db3d5, #ebf8e1, #989b9a);
     justify-content: space-around;
     font-family: Robot, Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding: 2px;
     border-radius: 30px;
     box-shadow: 3px 4px #5e6f7e;
+    /* #3f87a6 */
+    transition: all .2s ease-in-out;
 }
 
 .nav-container a {
@@ -25,6 +27,7 @@
   .nav-container a:hover {
     background-color: #79C99E;
     border-radius: 20px;
+    transform: scale(1.1);
   }
 
   .nav-container a.active {

@@ -19,26 +19,15 @@ import FitnessTracker from '../../images/fitnesstracker.jpeg';
 import GiftList from '../../images/giftlist.jpeg';
 import CookAndBrew from '../../images/CookNBrew.png';
 import WeatherDash from '../../images/weather.jpeg';
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Portfolio built by Tyler Hance
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
+import "../../styles/About.css";
+import Header from "../Header";
 
 const useStyles = makeStyles((theme) => ({
   icon: {
     marginRight: theme.spacing(2),
   },
   heroContent: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: theme.palette.background.paper, 
     padding: theme.spacing(8, 0, 6),
   },
   heroButtons: {
@@ -125,15 +114,9 @@ export default function Album() {
       <AppBar position="relative">
       </AppBar>
       <main>
-        {/* Hero unit */}
-        <div className={classes.heroContent}>
-          <Container maxWidth="sm">
-            <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              My Projects
-            </Typography>
-          </Container>
-        </div>
-        <Container className={classes.cardGrid} maxWidth="md">
+      <h1 color="white">Projects</h1>
+        
+        <Container className={classes.cardGrid} maxWidth="lg">
           {/* End hero unit */}
           <Grid container spacing={4}>
             {cards.map((card) => (
@@ -168,14 +151,6 @@ export default function Album() {
           </Grid>
         </Container>
       </main>
-      {/* Footer */}
-      <footer className={classes.footer}>
-        <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-          
-        </Typography>
-        <Copyright />
-      </footer>
-      {/* End footer */}
     </React.Fragment>
   );
 }

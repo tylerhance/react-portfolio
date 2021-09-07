@@ -1,0 +1,15 @@
+.icon-wrapper {
+    bottom: 0px;
+    position: relative;
+    text-align: center;
+    margin-left: 10px;
+}
+
+body {
+    background-image: url("../images/gradientlaptop.jpeg");
+    background-color: #cccccc;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ebe6e6;
+}

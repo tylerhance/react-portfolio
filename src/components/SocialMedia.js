@@ -8,17 +8,17 @@ import "../styles/SocialMedia.css";
 
 export default function SocialMedia() {
     return (
-        <div>
+        <div className="icon-wrapper">
             <h4>
                 {""}
                 {"\n"}
                 <a 
                 href="https://github.com/tylerhance" className="github">
-                    <FontAwesomeIcon icon={faGithub} size="2x" />
+                    <FontAwesomeIcon color="#26ac30" icon={faGithub} size="2x" />
                 </a>
                 <a 
                 href="https://www.linkedin.com/in/tyler-hance/" className="linkedin">
-                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                    <FontAwesomeIcon color="#26ac30" icon={faLinkedin} size="2x" />
                 </a>
             </h4>
         </div>
