@@ -8,7 +8,7 @@ function Navbar({ currentPage, handlePageChange }) {
     <ul className="nav-container">
       <li>
         <a
-          href="#about-me"
+          href="#about"
           onClick={() => handlePageChange("About")}
           className={currentPage === "About" ? "nav-link active" : "nav-link"}
         >
