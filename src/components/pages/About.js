@@ -21,8 +21,8 @@ export default function About() {
             <br />
                 My current tech skills include: 
                     <ul>
-                        <li><FontAwesomeIcon icon="fa-solid fa-circle-chevron-right" />HTML</li> 
-                        <li><FontAwesomeIcon icon="fa-solid fa-circle-chevron-right" listItem />CSS</li> 
+                        <li>HTML</li> 
+                        <li>CSS</li> 
                         <li>JavaScript</li>
                         <li>Node/Express.js</li>
                         <li>MySQL</li>
