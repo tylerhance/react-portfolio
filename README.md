@@ -27,7 +27,7 @@
 <h2>Usage</h2>
 
 * Check out the deployed version of the app on GH-Pages [Here](https://tylerhance.github.io/react-portfolio/)<br>
-<img src="./assets/images/reactscreenshot.jpeg">
+<img src="../images/reactscreenshot.jpeg">
 
 <h2>Questions</h2>
 
