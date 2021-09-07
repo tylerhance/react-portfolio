@@ -29,7 +29,7 @@ export default function About() {
                         <li>Sequelize (ORM)</li>
                         <li>MongoDB</li>
                         <li>Mongoose (ODM)</li>
-                        <li>GraphQL</li>
+                        <li>GraphQL/Apollo Server</li>
                         <li>React</li>
                         <li>Git</li>
                     </ul>

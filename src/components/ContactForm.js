@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import Button from '@material-ui/core/Button';
 import "../styles/ContactForm.css";
+import "../styles/About.css";
 
 import { validateEmail } from "./utils/helpers";
 
@@ -41,7 +43,7 @@ function ContactForm() {
     return (
       <div>
         <p>
-          Hello {userName}! Please add your contact information if you'd like more
+          Hello{userName}! Please add your contact information if you'd like more
           info.
         </p>
         <form className="form">
@@ -71,7 +73,7 @@ function ContactForm() {
           <br />
           <br />
           {/* <Button onClick={handleFormSubmit}>Submit </Button> */}
-          <button type="button" onClick={handleFormSubmit}>
+          <button type="button" variant="contained" color="primary" onClick={handleFormSubmit}>
             Submit
           </button>
         </form>

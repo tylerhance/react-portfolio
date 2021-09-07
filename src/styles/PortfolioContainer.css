@@ -4,3 +4,19 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+body {
+    background-image: url("../images/gradientlaptop.jpeg");
+    background-color: #cccccc;   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ebe6e6;
+}
+
+.projects {
+    color: #ebe6e6;
+    text-shadow: 2px 2px #5e6f7e;
+    display: flex;
+}
+

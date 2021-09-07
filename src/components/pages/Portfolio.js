@@ -20,6 +20,7 @@ import GiftList from '../../images/giftlist.jpeg';
 import CookAndBrew from '../../images/CookNBrew.png';
 import WeatherDash from '../../images/weather.jpeg';
 import "../../styles/About.css";
+import "../../styles/PortfolioContainer.css";
 import Header from "../Header";
 
 const useStyles = makeStyles((theme) => ({
@@ -40,6 +41,7 @@ const useStyles = makeStyles((theme) => ({
   card: {
     height: '100%',
     display: 'flex',
+    width: '103%',
     flexDirection: 'column',
   },
   cardMedia: {
@@ -92,7 +94,7 @@ const cards = [
     title: "Fitness Tracker",
     desc: "Fitness Tracker is an app built for users to create and track daily workouts. It allows anyone to be able to track the name, type, weight, sets, reps, and duration of exercise.",
     desc2: "Technologies used: JavaScript, Node/Express.js, MongoDB, Mongoose, deployed to Heroku.",
-    link: "https://github.com/tylerhance/Progressive-Budget",
+    link: "https://github.com/tylerhance/Workout-Tracker",
     link2: "https://desolate-everglades-17776.herokuapp.com/"
   },
   {
@@ -114,7 +116,7 @@ export default function Album() {
       <AppBar position="relative">
       </AppBar>
       <main>
-      <h1 color="white">Projects</h1>
+      <h1 className="projects">Projects</h1>
         
         <Container className={classes.cardGrid} maxWidth="lg">
           {/* End hero unit */}
