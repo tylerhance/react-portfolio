@@ -21,7 +21,7 @@ import CookAndBrew from '../../images/CookNBrew.png';
 import WeatherDash from '../../images/weather.jpeg';
 import "../../styles/About.css";
 import "../../styles/PortfolioContainer.css";
-import Header from "../Header";
+
 
 const useStyles = makeStyles((theme) => ({
   icon: {

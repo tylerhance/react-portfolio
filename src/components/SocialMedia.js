@@ -14,11 +14,11 @@ export default function SocialMedia() {
                 {"\n"}
                 <a 
                 href="https://github.com/tylerhance" className="github">
-                    <FontAwesomeIcon color="#26ac30" icon={faGithub} size="2x" />
+                    <FontAwesomeIcon color="#26ac30" icon={faGithub} size="3x" />
                 </a>
                 <a 
                 href="https://www.linkedin.com/in/tyler-hance/" className="linkedin">
-                    <FontAwesomeIcon color="#26ac30" icon={faLinkedin} size="2x" />
+                    <FontAwesomeIcon color="#26ac30" icon={faLinkedin} size="3x" />
                 </a>
             </h4>
         </div>
